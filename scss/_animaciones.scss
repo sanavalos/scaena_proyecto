@@ -1,0 +1,40 @@
+/* FOTOS - COMUNIDAD */
+.fotoTransicion{
+  transition: all 3s ease;
+}
+.fotoTransicion:hover{
+  width: 104%;
+  height: 104%;
+  border-radius: 40px;
+}
+
+/* PASOS - COMO FUNCIONA */
+.fadeIn{
+  animation: fadeIn;
+}
+
+/* DIVISOR - INDEX */
+.anim-typewriter{
+  animation: typewriter 8s steps(44) 1s 1 normal both,
+  blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 86%;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(0, 0, 0, 0.75);}
+  to{border-right-color: transparent;}
+}
+
+/* COLOR h1 */
+h1 {
+  animation: color-change 3s infinite ease;
+}
+
+@keyframes color-change {
+  0% { color: #383838; }
+  20% { color: #fd6118; }
+  80% { color: #fd6118; }
+  100% { color: #383838; }
+}

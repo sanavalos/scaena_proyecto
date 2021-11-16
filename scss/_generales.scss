@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+    font-family: 'Abel', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-style:normal;
+    font-weight:normal;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.5;
+}
+body {
+    height:max-content;
+    position: relative;
+    background-color:#fcf5b7b0;
+}
+h1 {
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+h2 {
+    color: #333333;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+ul{
+    list-style-type: none;
+    letter-spacing: 2px;
+}
+iframe{
+    display: block;
+}
+button{
+    border-radius: 10px;
+}
+footer div a{
+    text-decoration: none;
+}

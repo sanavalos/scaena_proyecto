@@ -1,0 +1,206 @@
+/* GRID INDEX */
+.contenedor1{
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr;
+    grid-template-rows: repeat(3, 0.8fr);
+    grid-template-areas: 
+        "buscador mapa"
+        "divisor divisor"
+        "informacion1 informacion2";
+    grid-gap: 2rem;
+    margin: 2vh 12vw;
+}
+#articulo1{
+grid-area: buscador;
+align-self: center;
+}
+#articulo2{
+grid-area: informacion1;
+border: solid #000000b2;
+border-radius: 8px;
+padding: 2vh 3vw;
+background-image: linear-gradient(#ffffff91,#dd9d11);
+align-self: center;
+}
+#articulo3{
+grid-area: mapa;
+align-self: center;
+}
+#articulo4{
+grid-area: informacion2;
+border: solid #000000b2;
+border-radius: 8px;
+padding: 2vh 3vw;
+background-image: linear-gradient(#ffffff91,#dd9d11);
+align-self: center;
+}
+#divisorIndex{
+grid-area: divisor;
+border: solid 2px#000000;
+background-color: #f8e7b8;
+}
+
+
+
+/*GRID TOP IMAGENES*/
+.contenedor2 {
+display: grid; 
+grid-template-columns: 1fr 1fr 1fr; 
+grid-template-rows: 0.2fr 1fr; 
+gap: 1.5rem 0px; 
+grid-template-areas: 
+  "tituloFoto tituloFoto tituloFoto"
+  "fotoTop textoTop textoTop";
+margin-right: 8rem;
+padding-top: 2rem;
+}
+#tituloTop{
+grid-area: tituloFoto;
+}
+#fotoTop{
+grid-area: fotoTop;
+text-align: right;
+margin-bottom: 0.5rem;
+}
+#textoTop{
+grid-area: textoTop;
+}
+
+
+
+/*GRID COMO FUNCIONA*/
+.contenedor3 {
+display: grid;
+grid-template-columns: 1fr 1fr ;
+grid-template-rows: 0.5fr 0.7fr 0.7fr 0.7fr 0.7fr;
+gap: 0px 0px;
+grid-auto-flow: row;
+grid-template-areas:
+"tituloComoFunciona tituloComoFunciona"
+"primerPaso primerPaso"
+"segundoPaso segundoPaso"
+"tercerPaso tercerPaso"
+"cuartoPaso cuartoPaso";
+}
+
+#tituloComoFunciona{
+grid-area: tituloComoFunciona;
+padding-top: 20px;
+margin: 0;
+}
+
+#primerPaso{
+grid-area: primerPaso;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+animation-duration: 3s;
+animation-name: slidein;
+}
+  
+@keyframes slidein {
+from {
+margin-left: 100%;
+width: 300%
+}
+to {
+margin-left: 0%;
+width: 100%;
+}
+}
+
+#segundoPaso{
+grid-area: segundoPaso;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+animation-duration: 8s;
+animation-name: slidein;
+}
+
+#tercerPaso{
+grid-area: tercerPaso;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+animation-duration: 13s;
+animation-name: slidein;
+}
+  
+#cuartoPaso{
+grid-area: cuartoPaso;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+animation-duration: 20s;
+animation-name: slidein;
+}
+
+/*GRID CONTACTANOS*/
+.contenedor4 {
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 0.5fr 0.1fr;
+gap: 0px 0px;
+grid-auto-flow: row;
+grid-template-areas:
+"tituloContactanos"
+"formularioContactanos";
+}
+
+#tituloContactanos{
+grid-area: tituloContactanos;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+#formularioContactanos{
+grid-area: formularioContactanos;
+}
+
+
+
+/*GRID FAQ*/
+.contenedor5{
+display: grid;
+grid-template-columns: 3fr;
+grid-template-rows:  0.35fr 1.25fr;
+grid-template-areas: 
+"tituloFaq"
+"preguntasFaq";
+grid-gap: 0px;
+}
+#tituloFaq{ 
+grid-area: tituloFaq;
+padding-top: 1.5rem;
+}
+#preguntasFaq {
+grid-area: preguntasFaq;
+margin: 0px 20vw;
+}
+
+
+
+/*GRID COMUNIDAD */
+.contenedor6 {
+display: grid; 
+grid-template-columns: 1fr 1fr 1fr; 
+grid-template-rows: 0.2fr 1fr; 
+gap: 10px 0px; 
+grid-template-areas: 
+"tituloComunidad tituloComunidad tituloComunidad"
+"fotosComunidad fotosComunidad fotosComunidad"; 
+}
+#tituloComunidad{
+grid-area: tituloComunidad;
+}
+#fotosComunidad{
+grid-area: fotosComunidad;
+text-align: left;
+padding: 1rem;
+}

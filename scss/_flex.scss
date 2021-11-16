@@ -1,0 +1,47 @@
+/* FLEX -  INDEX */
+.botonesBusqueda{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 0.3vh;
+}
+.flexDerechoIndex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+/* FLEX - TOP IMAGENES */
+.flexTop{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin: 0px 10vw;
+}
+.flexDerechoTop{
+    display: flex;
+    margin: 15vh;
+    flex-wrap: wrap;
+}
+.nombreFotografo {
+    text-transform:capitalize;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    color: #ff5100;
+}
+
+/* FLEX - CONTACTANOS */
+.informacionPersonal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formularioBotones{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    padding: 0 8vmax;
+}

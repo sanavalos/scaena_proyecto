@@ -1,0 +1,83 @@
+.textoIndex{
+    padding-left: 1vw;
+    text-align: justify;
+}
+.botonBuscar{
+    border-color: black;
+}
+.botonesIndividual{
+    border-style: dashed;
+    border-color: black;
+    background-color: rgba(187, 187, 187, 0.541);
+}
+.cajaBuscar{
+    width: 85%;
+}
+.cajaComentario{
+    text-align: center;
+}
+.fotoIndex{
+    border: 2px;
+    border-radius: 20px;
+}
+.grillaComunidad{
+    display: inline-block;
+    padding: 0px 1.5rem;
+}
+.fotoComunidad{
+    border-radius: 70px;
+}
+.fotoTop {
+    border-radius: 15px;
+}
+.textoConBorde{
+    border-style: solid;
+    padding: 5px;
+    margin-bottom: 10vh;
+    border-color: #000000;
+}
+.mainArreglado{
+    height: 80vh;
+}
+.textoPasos{
+    font-size: 30px;
+}
+/* DIVISOR - INDEX */
+.line-1{
+    position: relative;
+    top: 50%;  
+    width: 100%;
+    margin: 0 auto;
+    border-right: 2px solid rgba(0, 0, 0, 0.75);
+    font-size: 2.85vmax;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/* OPCIONES NAV OCULTAS */
+.navMedia{
+    display: none;
+}
+
+/* CONTACTANOS */
+.informacionContactanos{
+    width: 150px;
+    border-radius: 5px;
+    border-style: hidden;
+}
+.emailContactanos{
+    width: 385px;
+    margin-bottom: 2rem;
+    border-style: hidden;
+    border-radius: 5px;
+}
+
+/* VIDEO - COMUNIDAD */
+.tamañoVideo {
+    position: relative;
+    width: 100%; 
+    height: 23rem;
+    object-fit: cover;
+}
