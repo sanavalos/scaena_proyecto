@@ -10,10 +10,20 @@
 html,body{
     overflow-x: hidden;
 }
+html{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
 body {
-    height:max-content;
+    height: 100%;
     position: relative;
     background-color:#fcf5b7b0;
+}
+main{
+    min-height: 85%;
 }
 h1 {
     font-size: 45px;
@@ -42,3 +52,9 @@ button{
 footer div a{
     text-decoration: none;
 }
+/*
+footer{
+    position:relative;
+    bottom: 0px;
+    width: 100%;
+} */

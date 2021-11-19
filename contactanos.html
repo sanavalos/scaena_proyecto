@@ -74,14 +74,14 @@
         </ul>
     </div>
     <!-- CONTENIDO PRINCIPAL-->
-    <main class="contenedor4 mainArreglado">
+    <main class="contenedor4">
         <div id="tituloContactanos">
             <h1>Contactanos</h1>
             <p>Completa el siguiente formulario para hacernos llegar tu mensaje:</p>
         </div>
         <!-- Formulario -->
         <form action="" id="formularioContactanos">
-            <article class="informacionPersonal">
+            <section class="informacionPersonal">
                 <fieldset style="border-top: solid black 2px;">
                     <legend>Información personal</legend>
                     <label for="nombre">Nombre y apellido:</label>
@@ -90,8 +90,8 @@
                     <label for="email">Email:</label>
                     <input type="email" name="email" placeholder="email@outlook.com" class="emailContactanos">
                 </fieldset>
-            </article>
-            <article class="cajaComentario">
+            </section>
+            <section class="cajaComentario">
                 <label for="comentario">Comentario:</label>
                 <select name="cuestion">
                     <option value="contactar">Contactar</option>
@@ -101,9 +101,9 @@
                 </select></br>
                 <textarea name="comentario" cols="50" rows="10"
                     style="border-radius: 35px 35px 35px 0; padding:0 10px;"></textarea>
-            </article>
+            </section>
             <!-- BOTONES -->
-            <article class="formularioBotones">
+            <section class="formularioBotones">
                 <div>Acepto compartir mis datos personales
                     <input type="checkbox" name="si" value="1">
                 </div>
@@ -111,7 +111,7 @@
                     <input type="reset" value="LIMPIAR">
                     <input type="submit" value="ENVIAR">
                 </div>
-            </article>
+            </section>
         </form>
     </main>
     <!-- FOOTER-->

@@ -11,10 +11,20 @@
 html, body {
   overflow-x: hidden; }
 
+html {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px; }
+
 body {
-  height: max-content;
+  height: 100%;
   position: relative;
   background-color: #fcf5b7b0; }
+
+main {
+  min-height: 85%; }
 
 h1 {
   font-size: 45px;
@@ -43,6 +53,12 @@ button {
 footer div a {
   text-decoration: none; }
 
+/*
+footer{
+    position:relative;
+    bottom: 0px;
+    width: 100%;
+} */
 .textoIndex {
   padding-left: 1vw;
   text-align: justify; }
@@ -80,9 +96,6 @@ footer div a {
   padding: 5px;
   margin-bottom: 10vh;
   border-color: #000000; }
-
-.mainArreglado {
-  height: 80vh; }
 
 .textoPasos {
   font-size: 30px; }
@@ -203,7 +216,7 @@ footer div a {
 .contenedor2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 0.2fr 1fr;
+  grid-template-rows: 0.35fr 0.35fr;
   gap: 1.5rem 0px;
   grid-template-areas: "tituloFoto tituloFoto tituloFoto" "fotoTop textoTop textoTop";
   margin-right: 8rem;
@@ -223,15 +236,15 @@ footer div a {
 /*GRID COMO FUNCIONA*/
 .contenedor3 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 0.5fr 0.7fr 0.7fr 0.7fr 0.7fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.1fr 0.25fr 0.25fr 0.25fr 0.25fr;
   gap: 0px 0px;
   grid-auto-flow: row;
-  grid-template-areas: "tituloComoFunciona tituloComoFunciona" "primerPaso primerPaso" "segundoPaso segundoPaso" "tercerPaso tercerPaso" "cuartoPaso cuartoPaso"; }
+  grid-template-areas: "tituloComoFunciona" "primerPaso" "segundoPaso" "tercerPaso" "cuartoPaso"; }
 
 #tituloComoFunciona {
   grid-area: tituloComoFunciona;
-  padding-top: 20px;
+  padding: 20px 0px;
   margin: 0; }
 
 #primerPaso {
@@ -435,12 +448,11 @@ h1 {
     grid-template-columns: 1fr;
     grid-template-rows: 0.2fr 0.2fr 0.2fr;
     gap: 0px 0px;
-    grid-template-areas: "tituloFoto" "fotoTop" "textoTop"; }
+    grid-template-areas: "tituloFoto" "fotoTop" "textoTop";
+    margin: 0 0; }
   .flexDerechoTop {
     margin: 0 15px;
     margin-left: 10px; }
-  .contenedor2 {
-    margin: 0 0; }
   #fotoTop {
     position: relative;
     text-align: center; }
