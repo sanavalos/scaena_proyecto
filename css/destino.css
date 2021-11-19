@@ -119,12 +119,12 @@ footer{
 
 /* CONTACTANOS */
 .informacionContactanos {
-  width: 150px;
+  width: 6.2rem;
   border-radius: 5px;
   border-style: hidden; }
 
 .emailContactanos {
-  width: 385px;
+  width: 17.2rem;
   margin-bottom: 2rem;
   border-style: hidden;
   border-radius: 5px; }
@@ -295,7 +295,7 @@ footer{
 .contenedor4 {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 0.5fr 0.1fr;
+  grid-template-rows: 0.2fr 0.1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas: "tituloContactanos" "formularioContactanos"; }
@@ -304,7 +304,8 @@ footer{
   grid-area: tituloContactanos;
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  padding: 20px 0px; }
 
 #formularioContactanos {
   grid-area: formularioContactanos; }
@@ -455,10 +456,7 @@ h1 {
     margin-left: 10px; }
   #fotoTop {
     position: relative;
-    text-align: center; }
-  .footerTop {
-    position: relative;
-    bottom: -300px; } }
+    text-align: center; } }
 
 /* Boton de accion flotante */
 .fabContenedor {
