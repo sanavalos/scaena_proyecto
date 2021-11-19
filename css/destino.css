@@ -8,6 +8,9 @@
   text-align: justify;
   line-height: 1.5; }
 
+html, body {
+  overflow-x: hidden; }
+
 body {
   height: max-content;
   position: relative;
@@ -132,13 +135,6 @@ footer div a {
   flex-wrap: nowrap; }
 
 /* FLEX - TOP IMAGENES */
-.flexTop {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-content: center;
-  margin: 0px 10vw; }
-
 .flexDerechoTop {
   display: flex;
   margin: 15vh;
@@ -413,6 +409,9 @@ h1 {
     grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr;
     grid-template-areas: "buscador" "mapa" "divisor" "informacion1" "informacion2";
     margin: 0px 0px; }
+  .flexDerechoIndex {
+    display: flex;
+    flex-wrap: wrap; }
   .fotoIndex {
     justify-content: center;
     align-items: center;

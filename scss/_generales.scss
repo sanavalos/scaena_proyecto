@@ -7,6 +7,9 @@
     text-align: justify;
     line-height: 1.5;
 }
+html,body{
+    overflow-x: hidden;
+}
 body {
     height:max-content;
     position: relative;

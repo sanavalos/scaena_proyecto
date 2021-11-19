@@ -58,6 +58,10 @@
         "informacion2";
         margin: 0px 0px;
     }
+    .flexDerechoIndex{
+        display: flex;
+        flex-wrap: wrap;
+    }
     .fotoIndex{
         justify-content: center;
         align-items: center;
