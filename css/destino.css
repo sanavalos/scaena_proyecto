@@ -113,10 +113,10 @@ footer{
   overflow: hidden;
   transform: translateY(-50%); }
 
-/* OPCIONES NAV OCULTAS */
-.navMedia {
-  display: none; }
-
+/* OPCIONES NAV OCULTAS 
+.navMedia{
+    display: none;
+} */
 /* CONTACTANOS */
 .informacionContactanos {
   width: 6.2rem;
