@@ -106,7 +106,7 @@ footer{
   top: 50%;
   width: 100%;
   margin: 0 auto;
-  border-right: 2px solid rgba(0, 0, 0, 0.75);
+  border-right: 1px solid rgba(0, 0, 0, 0.75);
   font-size: 2.85vmax;
   text-align: center;
   white-space: nowrap;
@@ -189,11 +189,15 @@ footer{
 
 #articulo2 {
   grid-area: informacion1;
-  border: solid #000000b2;
+  border: double #000000b2;
+  border-width: 0.5rem;
   border-radius: 8px;
-  padding: 2vh 3vw;
-  background-image: linear-gradient(#ffffff91, #dd9d11);
-  align-self: center; }
+  margin: 0 4vw;
+  padding: 2vh 2vw;
+  border-color: #000;
+  background-color: #ffcea0;
+  align-self: center;
+  box-shadow: -4px 4px black; }
 
 #articulo3 {
   grid-area: mapa;
@@ -201,11 +205,15 @@ footer{
 
 #articulo4 {
   grid-area: informacion2;
-  border: solid #000000b2;
+  border: double #000000b2;
+  border-width: 0.5rem;
   border-radius: 8px;
-  padding: 2vh 3vw;
-  background-image: linear-gradient(#ffffff91, #dd9d11);
-  align-self: center; }
+  margin: 0 4vw;
+  padding: 2vh 2vw;
+  border-color: #000;
+  background-color: #ffcea0;
+  align-self: center;
+  box-shadow: 4px 4px black; }
 
 #divisorIndex {
   grid-area: divisor;
@@ -461,9 +469,10 @@ h1 {
 /* Boton de accion flotante */
 .fabContenedor {
   position: fixed;
-  bottom: 80px;
-  right: 30px;
-  cursor: pointer; }
+  bottom: 60px;
+  right: 50px;
+  cursor: pointer;
+  z-index: 3; }
 
 .fab-icon-espacio {
   width: 50px;

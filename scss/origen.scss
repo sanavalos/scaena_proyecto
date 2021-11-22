@@ -10,9 +10,10 @@
 /* Boton de accion flotante */
 .fabContenedor {
 	position: fixed;
-	bottom: 80px;
-	right: 30px;
+	bottom: 60px;
+	right: 50px;
 	cursor: pointer;
+	z-index: 3;
 }
 .fab-icon-espacio {
 	width: 50px;

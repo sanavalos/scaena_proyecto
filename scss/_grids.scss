@@ -16,11 +16,15 @@ align-self: center;
 }
 #articulo2{
 grid-area: informacion1;
-border: solid #000000b2;
+border: double #000000b2;
+border-width: 0.5rem;
 border-radius: 8px;
-padding: 2vh 3vw;
-background-image: linear-gradient(#ffffff91,#dd9d11);
+margin: 0 4vw;
+padding: 2vh 2vw;
+border-color: #000;
+background-color: rgb(255, 206, 160);
 align-self: center;
+box-shadow:-4px 4px black;
 }
 #articulo3{
 grid-area: mapa;
@@ -28,11 +32,15 @@ align-self: center;
 }
 #articulo4{
 grid-area: informacion2;
-border: solid #000000b2;
+border: double #000000b2;
+border-width: 0.5rem;
 border-radius: 8px;
-padding: 2vh 3vw;
-background-image: linear-gradient(#ffffff91,#dd9d11);
+margin: 0 4vw;
+padding: 2vh 2vw;
+border-color: #000;
+background-color: rgb(255, 206, 160);
 align-self: center;
+box-shadow:4px 4px black;
 }
 #divisorIndex{
 grid-area: divisor;
