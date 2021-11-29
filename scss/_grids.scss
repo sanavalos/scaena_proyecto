@@ -19,12 +19,12 @@ grid-area: informacion1;
 margin: 0 4vw;
 padding: 2vh 1vw;
 align-self: center;
-backdrop-filter: blur(10px);
+backdrop-filter: blur(2.5px);
 background-color: rgba(255, 255, 255, 0.425);
-border-radius: 5px;
+border-radius: 12px;
 text-align: center;
 line-height: 1;
-backdrop-filter: blur(10px);
+backdrop-filter: blur(2.5px);
 }
 #articulo3{
 grid-area: mapa;
@@ -35,17 +35,18 @@ grid-area: informacion2;
 margin: 0 4vw;
 padding: 2vh 1vw;
 align-self: center;
-backdrop-filter: blur(10px);
+backdrop-filter: blur(2.5px);
 background-color: rgba(255, 255, 255, 0.425);
-border-radius: 5px;
+border-radius: 12px;
 text-align: center;
 line-height: 1;
-backdrop-filter: blur(10px);
+backdrop-filter: blur(2.5px);
 }
 #divisorIndex{
 grid-area: divisor;
-border: solid 2px#000000;
-background-image: none;}
+border: 2px#f8f8f870;
+border-style:double;
+}
 
 
 
@@ -210,5 +211,5 @@ grid-area: tituloComunidad;
 #fotosComunidad{
 grid-area: fotosComunidad;
 text-align: left;
-padding: 1rem;
+padding: 2rem 5rem;
 }

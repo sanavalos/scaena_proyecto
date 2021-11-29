@@ -1,9 +1,9 @@
 /* FLEX -  INDEX */
 .botonesBusqueda{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     padding-top: 0.3vh;
-    padding-right: 3rem;
 }
 .flexDerechoIndex{
     display: flex;
@@ -36,6 +36,5 @@
 .formularioBotones{
     display:flex;
     flex-wrap: wrap;
-    justify-content:space-around;
-    padding: 0 8vmax;
+    justify-content:center;
 }

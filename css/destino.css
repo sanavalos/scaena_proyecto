@@ -59,6 +59,10 @@ footer{
     bottom: 0px;
     width: 100%;
 } */
+a {
+  text-decoration: none;
+  color: white; }
+
 .textoIndex {
   padding-left: 1vw;
   text-align: justify; }
@@ -83,7 +87,10 @@ footer{
 
 .grillaComunidad {
   display: inline-block;
-  padding: 0px 1.5rem; }
+  padding: 0px 3rem; }
+
+.grillaComunidad p {
+  text-align: center; }
 
 .fotoComunidad {
   border-radius: 70px; }
@@ -143,9 +150,9 @@ footer{
 /* FLEX -  INDEX */
 .botonesBusqueda {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
-  padding-top: 0.3vh;
-  padding-right: 3rem; }
+  padding-top: 0.3vh; }
 
 .flexDerechoIndex {
   display: flex;
@@ -176,8 +183,7 @@ footer{
 .formularioBotones {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 0 8vmax; }
+  justify-content: center; }
 
 /* GRID INDEX */
 .contenedor1 {
@@ -197,12 +203,12 @@ footer{
   margin: 0 4vw;
   padding: 2vh 1vw;
   align-self: center;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(2.5px);
   background-color: rgba(255, 255, 255, 0.425);
-  border-radius: 5px;
+  border-radius: 12px;
   text-align: center;
   line-height: 1;
-  backdrop-filter: blur(10px); }
+  backdrop-filter: blur(2.5px); }
 
 #articulo3 {
   grid-area: mapa;
@@ -213,17 +219,17 @@ footer{
   margin: 0 4vw;
   padding: 2vh 1vw;
   align-self: center;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(2.5px);
   background-color: rgba(255, 255, 255, 0.425);
-  border-radius: 5px;
+  border-radius: 12px;
   text-align: center;
   line-height: 1;
-  backdrop-filter: blur(10px); }
+  backdrop-filter: blur(2.5px); }
 
 #divisorIndex {
   grid-area: divisor;
-  border: solid 2px #000000;
-  background-image: none; }
+  border: 2px #f8f8f870;
+  border-style: double; }
 
 /*GRID TOP IMAGENES*/
 .contenedor2 {
@@ -353,7 +359,7 @@ footer{
 #fotosComunidad {
   grid-area: fotosComunidad;
   text-align: left;
-  padding: 1rem; }
+  padding: 2rem 5rem; }
 
 /* FOTOS - COMUNIDAD */
 .fotoTransicion {
@@ -420,7 +426,7 @@ h1 {
     from {
       width: 0; }
     to {
-      width: 80%; } }
+      width: 90%; } }
   .navMedia {
     display: inherit; }
   .contenedor2 {
@@ -539,3 +545,104 @@ button.accordion-button {
 
 .accordion-body {
   background-color: #fff5da; }
+
+/* ERROR 404 */
+.errorSeccion {
+  position: relative;
+  top: 25vh; }
+
+.errorTitulo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto auto; }
+
+.errorOpciones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.errorBoton {
+  margin: 0.3vh 1vw; }
+
+.errorBoton,
+.errorBoton:after {
+  width: 150px;
+  height: 76px;
+  line-height: 78px;
+  font-size: 25px;
+  background: linear-gradient(45deg, transparent 5%, #f76c2b 5%);
+  border: 0;
+  color: #fff;
+  letter-spacing: 3px;
+  box-shadow: 6px 0px 0px #272727;
+  outline: transparent;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation; }
+
+.errorBoton:after {
+  --slice-0: inset(50% 50% 50% 50%);
+  --slice-1: inset(80% -6px 0 0);
+  --slice-2: inset(50% -6px 30% 0);
+  --slice-3: inset(10% -6px 85% 0);
+  --slice-4: inset(40% -6px 43% 0);
+  --slice-5: inset(80% -6px 5% 0);
+  content: 'ERROR SCAENA';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, #FF013C 5%);
+  text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #00E6F6;
+  clip-path: var(--slice-0); }
+
+.errorBoton:hover:after {
+  animation: 1.45s glitch;
+  animation-timing-function: steps(2, end); }
+
+@keyframes glitch {
+  0% {
+    clip-path: var(--slice-1);
+    transform: translate(-20px, -10px); }
+  10% {
+    clip-path: var(--slice-3);
+    transform: translate(10px, 10px); }
+  20% {
+    clip-path: var(--slice-1);
+    transform: translate(-10px, 10px); }
+  30% {
+    clip-path: var(--slice-3);
+    transform: translate(0px, 5px); }
+  40% {
+    clip-path: var(--slice-2);
+    transform: translate(-5px, 0px); }
+  50% {
+    clip-path: var(--slice-3);
+    transform: translate(5px, 0px); }
+  60% {
+    clip-path: var(--slice-4);
+    transform: translate(5px, 10px); }
+  70% {
+    clip-path: var(--slice-2);
+    transform: translate(-10px, 10px); }
+  80% {
+    clip-path: var(--slice-5);
+    transform: translate(20px, -10px); }
+  90% {
+    clip-path: var(--slice-1);
+    transform: translate(-10px, 0px); }
+  100% {
+    clip-path: var(--slice-1);
+    transform: translate(0); } }
+
+@media (min-width: 768px) {
+  .errorBoton,
+  .errorBoton:after {
+    width: 200px;
+    height: 86px;
+    line-height: 88px; } }

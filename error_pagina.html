@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="css/destino.css">
 </head>
 
-<body class="bodyIndex">
+<body>
     <!-- HEADER -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -39,7 +39,7 @@
                         class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a>
                         </li>
                         <li class="nav-item"><a class="nav-link" href="comunidad.html">Comunidad</a></li>
                         <li class="nav-item"><a class="nav-link" href="top_imagenes.html">Top Imágenes</a></li>
@@ -52,71 +52,19 @@
             </div>
         </nav>
     </header>
-    <!-- BOTON DE ACCION FLOTANTE -->
-    <div class="fabContenedor">
-        <div class="fab fab-icon-espacio">
-            <i class="fas fa-question"></i>
-        </div>
-        <ul class="fab-opciones">
-            <li>
-                <span class="fab-etiqueta">Como funciona</span>
-                <div class="fab-icon-espacio">
-                    <a class="nav-link" href="como_funciona.html"><i class="fas fa-file-alt"></i></a>
-                </div>
-            </li>
-            <li>
-                <span class="fab-etiqueta">FAQ</span>
-                <div class="fab-icon-espacio">
-                    <a class="nav-link" href="faq.html"><i class="fas fa-comment-alt"></i></a>
-                </div>
-            </li>
-        </ul>
-    </div>
     <!-- CONTENIDO PRINCIPAL -->
-    <main class="contenedor1">
-        <section id="articulo1">
-            <h1>Encontrate de nuevo</h1>
-            <form>
-                <input class="cajaBuscar" style="border: 0;" type="search" name="Busqueda de lugar"
-                    placeholder="Ciudad, país">
-                <button class="botonBuscar">Buscar</button>
-                <div class="botonesBusqueda">
-                    <button class="botonesIndividual">Urbano</button>
-                    <button class="botonesIndividual">Naturaleza</button>
-                    <button class="botonesIndividual">Moderno</button>
-                    <button class="botonesIndividual">Antiguo</button>
-                    <button class="botonesIndividual"><i class="fas fa-filter"></i></button>
-                </div>
-            </form>
-        </section>
-        <section id="articulo2">
-            <div class="flexDerechoIndex">
-                <img src="multimedia/fotoscolgando.png" alt="Dibujo de fotos colgadas" class="fotoIndex">
-                <div class="textoIndex">
-                    <h2>Compartí hallazgos</h2>
-                    <p>Forma parte de la comunidad aportando tus puntos de vista y fotografías.
-                        Siempre hay que tener en cuenta que cada imagen es única e irrepetible.</p>
-                </div>
+    <main class="mainArreglado">
+        <div class="errorSeccion">
+            <div class="errorTitulo">
+                <h1>ERROR 404</h1>
+                <p>No deberías estar acá...</p>
+                <p>No te preocupes, te damos las siguientes opciones:</p>
             </div>
-        </section>
-        <section id="articulo3">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100584.74156786283!2d-57.670745191588345!3d-38.017410534224986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584d94d19d34209%3A0xdd9670804bfed126!2sMar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1633816921824!5m2!1ses-419!2sar"
-                width=100% height="350" allowfullscreen="" loading="lazy"></iframe>
-        </section>
-        <section id="articulo4">
-            <div class="flexDerechoIndex">
-                <img src="multimedia/coliseo.png" alt="Dibujo de coliseo a mano" class="fotoIndex">
-                <div class="textoIndex">
-                    <h2>Descubrí bellezas</h2>
-                    <p>Si uno se encuentra con falta de inspiración o desconoce un área, recurrir a las fotografías de
-                        la comunidad es como una bocanada de aire fresco.</p>
-                </div>
+            <div class="errorOpciones">
+                <button class="errorBoton" role="button"><a href="index.html">Volver Scaena</a></button>
+                <button class="errorBoton" role="button"><a href="http//www.google.com/">Dejar página</a></button>
             </div>
-        </section>
-        <section id="divisorIndex">
-            <p class="line-1 anim-typewriter">#Scaena📸 #Encontrate🧭 #Compartí💌 #Descubrí🔎</p>
-        </section>
+        </div>
     </main>
     <!-- FOOTER -->
     <footer class="py-3 bg-dark">
@@ -145,7 +93,6 @@
                     </svg>@scaena</p>
             </a>
             <p class="m-0 text-center text-white">Copyright &copy; Santiago Avalos 2021</p>
-            <p class="m-0 text-center text-black">Sitio web hecho por Santiago Germán Avalos*</p>
         </div>
     </footer>
     <!-- JS BOOTSTRAP -->
