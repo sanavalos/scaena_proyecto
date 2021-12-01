@@ -30,6 +30,7 @@
 /* COLOR h1 */
 h1 {
   animation: color-change 3s infinite ease;
+  text-shadow: 1px 0 0 white;
 }
 
 @keyframes color-change {

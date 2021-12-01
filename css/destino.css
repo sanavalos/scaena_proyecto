@@ -21,7 +21,7 @@ html {
 body {
   height: 100%;
   position: relative;
-  background-color: #fcf5b7b0; }
+  background-image: linear-gradient(to right top, #fff6ef, #fdf2e7, #f9efdf, #f4ecd7, #ede9d0); }
 
 main {
   min-height: 85%; }
@@ -55,13 +55,13 @@ footer div a {
 
 /*
 footer{
-    position:relative;
+    position:absolute;
     bottom: 0px;
     width: 100%;
 } */
 a {
   text-decoration: none;
-  color: white; }
+  color: #ff5304; }
 
 .textoIndex {
   padding-left: 1vw;
@@ -87,7 +87,7 @@ a {
 
 .grillaComunidad {
   display: inline-block;
-  padding: 0px 3rem; }
+  padding: 0px 2vw; }
 
 .grillaComunidad p {
   text-align: center; }
@@ -144,8 +144,7 @@ a {
 .tamañoVideo {
   position: relative;
   width: 100%;
-  height: 23rem;
-  object-fit: cover; }
+  height: 23rem; }
 
 /* FLEX -  INDEX */
 .botonesBusqueda {
@@ -184,6 +183,9 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; }
+
+legend {
+  float: none; }
 
 /* GRID INDEX */
 .contenedor1 {
@@ -358,8 +360,8 @@ a {
 
 #fotosComunidad {
   grid-area: fotosComunidad;
-  text-align: left;
-  padding: 2rem 5rem; }
+  text-align: center;
+  padding: 2rem 0px; }
 
 /* FOTOS - COMUNIDAD */
 .fotoTransicion {
@@ -392,7 +394,8 @@ a {
 
 /* COLOR h1 */
 h1 {
-  animation: color-change 3s infinite ease; }
+  animation: color-change 3s infinite ease;
+  text-shadow: 1px 0 0 white; }
 
 @keyframes color-change {
   0% {
@@ -571,7 +574,7 @@ button.accordion-button {
   width: 150px;
   height: 76px;
   line-height: 78px;
-  font-size: 25px;
+  font-size: 18px;
   background: linear-gradient(45deg, transparent 5%, #f76c2b 5%);
   border: 0;
   color: #fff;
@@ -602,7 +605,7 @@ button.accordion-button {
   clip-path: var(--slice-0); }
 
 .errorBoton:hover:after {
-  animation: 1.45s glitch;
+  animation: 1.65s glitch;
   animation-timing-function: steps(2, end); }
 
 @keyframes glitch {
@@ -646,3 +649,7 @@ button.accordion-button {
     width: 200px;
     height: 86px;
     line-height: 88px; } }
+
+/* Informacion personal - contactanos */
+fieldset legend {
+  border-top: solid black 2px; }

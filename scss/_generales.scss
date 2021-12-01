@@ -20,7 +20,7 @@ html{
 body{
     height: 100%;
     position: relative;
-    background-color:#fcf5b7b0;
+    background-image: linear-gradient(to right top, #fff6ef, #fdf2e7, #f9efdf, #f4ecd7, #ede9d0);
 }
 main{
     min-height: 85%;
@@ -54,11 +54,11 @@ footer div a{
 }
 /*
 footer{
-    position:relative;
+    position:absolute;
     bottom: 0px;
     width: 100%;
 } */
 a{
 	text-decoration: none;
-	color: white;
+	color: rgb(255, 83, 4);
 }

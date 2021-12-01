@@ -104,7 +104,7 @@ margin: auto auto;
   width: 150px;
   height: 76px;
   line-height: 78px;
-  font-size: 25px;
+  font-size: 18px;
   background: linear-gradient(45deg, transparent 5%, #f76c2b 5%);
   border: 0;
   color: #fff;
@@ -138,7 +138,7 @@ margin: auto auto;
 }
 
 .errorBoton:hover:after {
-  animation: 1.45s glitch;
+  animation: 1.65s glitch;
   animation-timing-function: steps(2, end);
 }
 
@@ -196,4 +196,9 @@ margin: auto auto;
     height: 86px;
     line-height: 88px;
   }
+}
+
+/* Informacion personal - contactanos */
+fieldset legend {
+  border-top: solid black 2px;
 }
