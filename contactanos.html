@@ -31,7 +31,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container px-5">
-                <a class="nav-link" href="index.html"><img src="multimedia/logoeditado.png"></a>
+                <a class="nav-link" href="index.html"><img src="multimedia/logoeditado.png" alt="logo de Scaena"></a>
                 <p style="color: #e4520f; font-family: 'Syncopate', sans-serif">SCAENA</p>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -47,7 +47,7 @@
                                 href="contactanos.html">Contactanos</a></li>
                         <li class="nav-item"><a class="nav-link navMedia" href="como_funciona.html">Cómo funciona</a>
                         </li>
-                        <li class="nav-item"><a class="nav-link navMedia" href="faq.html">FAQs</a></li>
+                        <li class="nav-item"><a class="nav-link navMedia" href="faq.html">FAQ</a></li>
                     </ul>
                 </div>
             </div>
@@ -83,7 +83,9 @@
         <form action="" id="formularioContactanos">
             <section class="informacionPersonal">
                 <fieldset>
-                    <legend>Información personal</legend>
+                    <legend>
+                        <h2>Información personal</h2>
+                    </legend>
                     <label for="nombre">Nombre y apellido:</label>
                     <input type="text" name="nombre" placeholder="Nombre" class="informacionContactanos">
                     <input type="text" name="apellido" placeholder="Apellido" class="informacionContactanos"><br>
@@ -91,19 +93,19 @@
                     <input type="email" name="email" placeholder="email@outlook.com" class="emailContactanos">
                 </fieldset>
             </section>
-            <section class="cajaComentario">
+            <div class="cajaComentario">
                 <label for="comentario">Comentario:</label>
                 <select name="cuestion">
                     <option value="contactar">Contactar</option>
                     <option value="consulta">Consulta</option>
                     <option value="colaboracion">Colaboración</option>
                     <option value="sugerencia">Sugerencia</option>
-                </select></br>
+                </select><br>
                 <textarea name="comentario" cols="40" rows="10"
                     style="border-radius: 35px 35px 35px 0; padding:0 10px;"></textarea>
-            </section>
+            </div>
             <!-- BOTONES -->
-            <section class="formularioBotones">
+            <div class="formularioBotones">
                 <div>
                     <input type="checkbox" name="si" value="1">
                     Acepto compartir mis datos personales
@@ -112,11 +114,11 @@
                     <input type="reset" value="LIMPIAR">
                     <input type="submit" value="ENVIAR">
                 </div>
-            </section>
+            </div>
         </form>
     </main>
     <!-- FOOTER-->
-    <footer class="py-3 bg-dark">
+    <footer class="py-1 bg-dark">
         <div class="container px-4 px-lg-5">
             <a href="http://www.facebook.com/">
                 <p class="m-0 text-center text-white"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"

@@ -73,6 +73,9 @@ margin-bottom: 0.5rem;
 #textoTop{
 grid-area: textoTop;
 }
+.contenedor2 h2{
+  text-align: center;
+}
 
 
 
@@ -178,7 +181,7 @@ grid-area: formularioContactanos;
 .contenedor5{
 display: grid;
 grid-template-columns: 3fr;
-grid-template-rows:  0.35fr 1.25fr;
+grid-template-rows:  0.30fr 0.5fr;
 grid-template-areas: 
 "tituloFaq"
 "preguntasFaq";
@@ -199,7 +202,7 @@ margin: 0px 20vw;
 .contenedor6 {
 display: grid; 
 grid-template-columns: 1fr 1fr 1fr; 
-grid-template-rows: 0.2fr 1fr; 
+grid-template-rows: 0.2fr 0.5fr; 
 gap: 10px 0px; 
 grid-template-areas: 
 "tituloComunidad tituloComunidad tituloComunidad"
